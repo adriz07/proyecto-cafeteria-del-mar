@@ -1,0 +1,269 @@
+body {
+  background-color: bisque;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+header, footer {
+  background-color: burlywood; }
+
+.bannerprincipal {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 50px);
+  background-color: grey;
+  background-size: cover;
+  background-position: center;
+  transition: all 5s ease;
+  background-image: url("./imagenes/banner 1.jpg");
+  animation: bannerprincipal 28s infinite linear; }
+
+.banner2 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: rgba(0, 22, 40, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.banner2 h1 {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+  font-size: 40px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+.banner2 a {
+  text-decoration: none;
+  color: white;
+  padding: 9px 20px;
+  border: 1px solid;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-transform: uppercase;
+  transition: all .1s ease-in-out; }
+
+.banner2 a :hover {
+  background-color: #fff;
+  color: #333; }
+
+@keyframes bannerprincipal {
+  0% {
+    background-image: url("../imagenes/banner 1.jpg"); }
+  25% {
+    background-image: url("../imagenes/banner 1.jpg"); }
+  26% {
+    background-image: url("../imagenes/banner 2.jpg"); }
+  50% {
+    background-image: url("../imagenes/banner 2.jpg"); }
+  51% {
+    background-image: url("../imagenes/banner 3.jpg"); }
+  75% {
+    background-image: url("../imagenes/banner 3.jpg"); }
+  76% {
+    background-image: url("../imagenes/banner 4.jpg"); }
+  100% {
+    background-image: url("./imagenes/banner 4.jpg"); } }
+
+.contenedor-boton {
+  background-color: #2e6329;
+  border: 1px solid #fff;
+  position: fixed;
+  z-index: 999;
+  border-radius: 25%;
+  bottom: 20px;
+  right: 25px;
+  padding: 1px;
+  transition: ease 0.3s;
+  animation: efecto 1.2s infinite; }
+  .contenedor-boton .contenedor-boton:hover {
+    transform: scale(1.1);
+    transition: 0.3s; }
+  .contenedor-boton .boton {
+    width: 50px;
+    transition: ease 1s; }
+
+.conjimg {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px; }
+
+@media only screen and (min-width: 320px) and (orientation: portrait) {
+  .conjimg {
+    flex-direction: column;
+    align-items: center;
+    height: 30%; } }
+
+.conjimg2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px; }
+
+@media only screen and (min-width: 320px) and (orientation: portrait) {
+  .conjimg2 {
+    flex-direction: column;
+    align-items: center;
+    height: 30%; } }
+
+.imgnuestrosproductos {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 15px;
+  position: relative; }
+
+.imagenunetealequipo {
+  position: relative;
+  height: 43.75em;
+  width: 58em;
+  border-radius: 20px solid rgba(255, 255, 255, 0);
+  margin-left: 208px; }
+
+.card {
+  margin: 25px; }
+
+:root {
+  --login-bg: white; }
+
+.login-contenedor {
+  height: 36.75em;
+  width: 58em;
+  margin: 6em auto;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  border-radius: 10px; }
+
+.login-info-contenedor {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: none;
+  padding-top: 0.2rem;
+  background-color: beige; }
+
+.imagenlogo-contenedora {
+  width: 50%;
+  padding: 2rem;
+  background-color: bisque;
+  box-sizing: border-box; }
+
+.titulo {
+  text-transform: capitalize;
+  font-size: 2.25rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.social-login {
+  width: 100%;
+  display: flex;
+  border: none;
+  justify-content: space-evenly; }
+
+.social-login-element {
+  border: 1px solid black;
+  width: 12.5rem;
+  height: 3.75rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: 1px solid black; }
+
+.social-login-element img {
+  width: 1.875rem;
+  height: 1.875rem;
+  position: relative;
+  top: 0;
+  left: -0.625rem; }
+
+.social-login-element :hover {
+  background-color: #fff;
+  cursor: pointer; }
+
+.login-info-contenedor > p {
+  font-size: 1.25em;
+  margin-top: 1.1em; }
+
+.inputs-contenedor {
+  border: 1px solid black;
+  height: 56%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+
+.input, .btn {
+  width: 90%;
+  height: 3.125rem;
+  font-size: 1em; }
+
+.input {
+  padding-left: 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-sizing: border-box; }
+
+.input:hover {
+  border: 2px solid black; }
+
+.btn {
+  width: 80%;
+  letter-spacing: 1%;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 5px;
+  background-color: moccasin;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px; }
+
+.inputs-contenedor p {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+.span {
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+@media screen and (max-width: 1000px) {
+  .imagenlogo-contenedora {
+    display: none; }
+  .login-contenedor {
+    border: 2px solid red;
+    width: 70%;
+    margin-top: 3rem; }
+  .login-info-contenedor {
+    width: 100%; } }
+
+@media screen and (max-width: 650px) {
+  .login-contenedor {
+    width: 90%; } }
+
+@media screen and (max-width: 500px) {
+  .login-contenedor {
+    height: 90%; }
+  .social-login {
+    flex-direction: column;
+    align-items: center;
+    height: 30%; } }
+
+.titulo {
+  font-family: "Comfortaa", cursiva; }
+
+* {
+  margin: 0;
+  padding: 0; }

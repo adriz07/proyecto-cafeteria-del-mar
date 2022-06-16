@@ -1,0 +1,50 @@
+@mixin image {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px
+}
+@mixin image2{
+    flex-direction: column;
+        align-items: center;
+        height: 30%;
+}
+
+.conjimg{
+    @include image;
+}
+@media only screen and (min-width: 320px)  and (orientation: portrait){
+    .conjimg{
+        @include image2;
+    }
+}
+
+.conjimg2{
+  @include image;
+}
+    
+
+@media only screen and (min-width: 320px)  and (orientation: portrait){
+    .conjimg2{
+       @include image2;
+    }
+}
+
+.imgnuestrosproductos{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15px;
+    position: relative;
+    
+ }
+
+ .imagenunetealequipo{
+    position: relative;
+    height: 43.75em;
+    width: 58em;
+    border-radius: 20px solid rgba(255, 255, 255, 0);
+    margin-left: 208px;
+}
+
+.card{
+    margin: 25px;
+}

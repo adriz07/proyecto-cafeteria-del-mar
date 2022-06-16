@@ -1,0 +1,20 @@
+.contenedor-boton{
+    background-color: #2e6329;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 25%;
+    bottom: 20px;
+    right: 25px;
+    padding: 1px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+    .contenedor-boton:hover{
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+    .boton{
+        width: 50px;
+        transition: ease 1s;
+    }
+}
