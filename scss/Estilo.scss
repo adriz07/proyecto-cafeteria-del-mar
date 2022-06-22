@@ -1,7 +1,7 @@
-$body-color: bisque;
+$body-color: #fafafa ;
 $text-color: grey;
-$colors: burlywood;
-$text:'Comfortaa', cursiva ;
+$colors: rgb(224, 180, 121);
+$text:url(https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap) ;
 
 
 @import "body";
@@ -12,19 +12,15 @@ $text:'Comfortaa', cursiva ;
 @import "imgs";
 @import "login";
 @import "textos";
+@import "check";
+@import "caja";
+@import "notfound";
 
 
 *{
     margin: 0;
     padding: 0;
 }
-
-
-
-
-
-
-
 
 
 

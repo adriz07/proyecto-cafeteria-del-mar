@@ -14,5 +14,13 @@
     "nodemon": "^2.0.16"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriz07/proyecto-cafeteria-del-mar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adriz07/proyecto-cafeteria-del-mar/issues"
+  },
+  "homepage": "https://github.com/adriz07/proyecto-cafeteria-del-mar#readme",
   "description": ""
 }
