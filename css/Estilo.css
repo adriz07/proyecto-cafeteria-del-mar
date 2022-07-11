@@ -1,5 +1,5 @@
 body {
-  background-color: #fafafa;
+  background-color: F4F4F4;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
 
 header, footer {
@@ -12,9 +12,9 @@ header, footer {
   background-color: grey;
   background-size: cover;
   background-position: center;
-  transition: all 5s ease;
-  background-image: url("./imagenes/banner 1.jpg");
-  animation: bannerprincipal 28s infinite linear; }
+  transition: all 1s ease-in-out;
+  background-image: url("../imagenes/banner 1.jpg");
+  animation: bannerprincipal  28s infinite linear; }
 
 .banner2 {
   margin: 0;
@@ -43,9 +43,9 @@ header, footer {
   border: 1px solid;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-transform: uppercase;
-  transition: all .1s ease-in-out; }
+  transition: all .3s ease-in-out; }
 
-.banner2 a :hover {
+.banner2 a:hover {
   background-color: #fff;
   color: #333; }
 
@@ -65,7 +65,7 @@ header, footer {
   76% {
     background-image: url("../imagenes/banner 4.jpg"); }
   100% {
-    background-image: url("./imagenes/banner 4.jpg"); } }
+    background-image: url("../imagenes/banner 4.jpg"); } }
 
 .contenedor-boton {
   background-color: #2e6329;
@@ -73,8 +73,8 @@ header, footer {
   position: fixed;
   z-index: 999;
   border-radius: 25%;
-  bottom: 20px;
-  right: 25px;
+  bottom: 30px;
+  left: 15px;
   padding: 1px;
   transition: ease 0.3s;
   animation: efecto 1.2s infinite; }
@@ -122,6 +122,13 @@ header, footer {
 
 .card {
   margin: 25px; }
+
+.comunidad {
+  background-image: F4F4F4; }
+
+.img404 {
+  margin-left: 600px;
+  margin-top: 600px; }
 
 :root {
   --login-bg: white; }
@@ -261,11 +268,27 @@ header, footer {
     align-items: center;
     height: 30%; } }
 
-.titulo {
-  font-family: url(https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap); }
+.titulo1, .titulo2, .titulocheck, .titulo4 {
+  font-family: "Gulzar", serif; }
+
+.titulo3 {
+  font-family: "Gulzar", serif;
+  margin-left: 250px;
+  margin-top: 250px; }
+
+@media only screen and (min-width: 320px) and (orientation: portrait) {
+  .titulo3 {
+    margin-left: 10px;
+    margin-top: 80px; } }
+
+.btn-primary {
+  background-color: grey; }
+
+.span {
+  text-decoration: none; }
 
 .container-fluid1 {
-  background-color: #fafafa; }
+  background-color: F4F4F4; }
 
 .bd-placeholder-img {
   font-size: 1.125rem;

@@ -5,8 +5,8 @@
 }
 @mixin image2{
     flex-direction: column;
-        align-items: center;
-        height: 30%;
+    align-items: center;
+    height: 30%;
 }
 
 .conjimg{
@@ -47,4 +47,14 @@
 
 .card{
     margin: 25px;
+}
+
+.comunidad{
+    background-image: $body-color;
+    
+}
+
+.img404{
+    margin-left: 600px;
+    margin-top: 600px;
 }
