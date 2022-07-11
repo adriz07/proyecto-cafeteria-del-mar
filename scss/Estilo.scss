@@ -15,6 +15,7 @@ $text:'Gulzar', serif; ;
 @import "check";
 @import "caja";
 @import "notfound";
+@import "barra lateral";
 
 
 *{
@@ -22,6 +23,11 @@ $text:'Gulzar', serif; ;
     padding: 0;
 }
 
+
+ .img404{
+    max-width:100% ;
+    height:auto;
+ }
 
 
 

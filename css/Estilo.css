@@ -127,8 +127,13 @@ header, footer {
   background-image: F4F4F4; }
 
 .img404 {
-  margin-left: 600px;
-  margin-top: 600px; }
+  margin-left: 400px;
+  margin-top: 400px; }
+
+@media only screen and (min-width: 320px) and (orientation: portrait) {
+  .img404 {
+    align-items: center;
+    height: 30%; } }
 
 :root {
   --login-bg: white; }
@@ -274,7 +279,7 @@ header, footer {
 .titulo3 {
   font-family: "Gulzar", serif;
   margin-left: 250px;
-  margin-top: 250px; }
+  margin-top: 150px; }
 
 @media only screen and (min-width: 320px) and (orientation: portrait) {
   .titulo3 {
@@ -372,6 +377,66 @@ header, footer {
 .error-actions .btn {
   margin-right: 10px; }
 
+.barra {
+  width: 10%;
+  height: 9%;
+  position: relative;
+  transition: .4s all;
+  z-index: 1; }
+
+.barra ul {
+  padding: 0px;
+  text-align: center; }
+
+.barra li {
+  transition: .3s all; }
+
+.barra a {
+  list-style: none;
+  text-decoration: none;
+  transition: .3s all;
+  font-size: 0px;
+  padding: 0px; }
+
+.barra img {
+  padding-top: 20px;
+  padding-left: 15px; }
+
+.barra:hover {
+  width: 40%;
+  height: 50%;
+  background-color: grey;
+  border-radius: 3%; }
+
+.barra:hover h2 {
+  padding: 15px;
+  font-size: 35px; }
+
+.barra:hover a {
+  font-size: 15px;
+  color: white;
+  display: block;
+  padding: 15px; }
+
+.barra:hover img {
+  height: 0px; }
+
+.barra:hover li {
+  border-top: 1px solid black;
+  width: 100%; }
+
+.barra:hover ul:last-of-type {
+  border-bottom: 1px solid black; }
+
+.barra:hover a:hover {
+  font-size: 20px;
+  padding: 30px 0px;
+  background-color: rgba(22, 78, 112, 0.98); }
+
 * {
   margin: 0;
   padding: 0; }
+
+.img404 {
+  max-width: 100%;
+  height: auto; }
